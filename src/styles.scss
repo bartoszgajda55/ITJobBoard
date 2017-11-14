@@ -2,3 +2,12 @@
 @import "~bootstrap/scss/bootstrap";
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
+
+$colors: (
+  primary:    #840032,
+  darker:     #610025,
+  lighter:    #A54569,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
