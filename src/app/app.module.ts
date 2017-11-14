@@ -8,6 +8,7 @@ import { JobListComponent } from './components/job-list/job-list.component';
 import { MapComponent } from './components/map/map.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FilterComponent } from './components/filter/filter.component';
     JobListComponent,
     MapComponent,
     HeaderComponent,
-    FilterComponent
+    FilterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
