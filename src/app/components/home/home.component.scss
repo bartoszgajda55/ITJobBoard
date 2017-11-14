@@ -1,0 +1,23 @@
+@import "../../../styles";
+
+* {
+  color: white;
+}
+.main-container {
+  height: 90%;
+}
+.filter {
+  height: 10%;
+  .col {
+    background: color(primary);
+  }
+}
+.content {
+  height: 90%;
+  .job-list {
+    background: color(lighter);
+  }
+  .map {
+    background: color(darker);
+  }
+}
