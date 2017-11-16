@@ -9,6 +9,7 @@ import { MapComponent } from './components/map/map.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { HomeComponent } from './components/home/home.component';
+import {AgmCoreModule} from '@agm/core';
 
 
 @NgModule({
@@ -22,7 +23,10 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCAbWiK10uUpKMwuEwaxLlwbMMQAJIgeoE'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
