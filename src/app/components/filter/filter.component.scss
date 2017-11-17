@@ -1,3 +1,22 @@
-.btn-filter {
-  margin-right: 10px;
+@import "../../../styles";
+
+.filter {
+  .btn-filter {
+    color: color(primary);
+    border-color: color(primary);
+    margin-right: 10px;
+  }
+  .btn-filter:hover {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: color(primary);
+  }
+  .btn-filter:active {
+    background-color: color(primary) !important;
+    box-shadow: 0 0 0 0.2rem color(primary) !important;
+    border-color: color(primary) !important;
+  }
+  .btn-filter:focus {
+    box-shadow: none;
+  }
 }
