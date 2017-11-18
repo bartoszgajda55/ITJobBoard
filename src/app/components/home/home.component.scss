@@ -16,6 +16,7 @@
   height: 85%;
   .job-list {
     background: map_get($colors, 'light');
+    padding: 0;
   }
   .map {
     background: map_get($colors, 'darker');
