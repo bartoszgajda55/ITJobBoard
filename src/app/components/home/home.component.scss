@@ -9,16 +9,16 @@
 .filter {
   height: 15%;
   .col {
-    background: color(light);
+    background: map_get($colors, 'light');
   }
 }
 .content {
   height: 85%;
   .job-list {
-    background: color(light);
+    background: map_get($colors, 'light');
   }
   .map {
-    background: color(darker);
+    background: map_get($colors, 'darker');
     padding: 0;
   }
 }

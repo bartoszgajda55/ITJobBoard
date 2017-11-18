@@ -2,7 +2,7 @@
 
 .header-container {
   height: 10%;
-  background: color(primary);
+  background: map_get($colors, 'primary');
   h3 {
     font-weight: 700;
   }
