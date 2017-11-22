@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { HomeComponent } from './components/home/home.component';
 import {AgmCoreModule} from '@agm/core';
+import { PostajobComponent } from './components/postajob/postajob.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {AgmCoreModule} from '@agm/core';
     MapComponent,
     HeaderComponent,
     FilterComponent,
-    HomeComponent
+    HomeComponent,
+    PostajobComponent
   ],
   imports: [
     BrowserModule,
