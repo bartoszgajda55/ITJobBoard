@@ -2,10 +2,13 @@
 
 .post-container {
   background: map_get($colors, 'light');
-  height: calc(100% - 100px);;
+  height: calc(100% - 100px);
 }
 .form-box {
   background: white;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
 }
 p {
   color: map_get($colors, 'dark');
